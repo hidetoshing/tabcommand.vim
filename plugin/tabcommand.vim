@@ -10,7 +10,7 @@ set cpo&vim
 nnoremap [Tab] <Nop>
 
 " default map
-nmap [prefix]t [Tab]
+nmap [Prefix]t [Tab]
 
 """ action
 nnoremap <silent> [Tab]c :<C-u>tabnew<CR>
