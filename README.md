@@ -3,6 +3,7 @@ tab commands
 
 # keybinds
 
+|command|function|
 |:--|:--|
 | [Tab]c | tabnew |
 | [Tab]p | tabprevious |
