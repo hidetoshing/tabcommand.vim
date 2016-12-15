@@ -7,16 +7,17 @@ let g:loaded_tabcommand = 1
 let s:save_cpo = &cpo
 set cpo&vim
 
-nnoremap [Tab] <Nop>
+""" tabline setting
+set showtabline=2
 
-" default map
-nmap [Prefix]t [Tab]
+nnoremap [Tab] <Nop>
 
 """ action
 nnoremap <silent> [Tab]c :<C-u>tabnew<CR>
 nnoremap <silent> [Tab]p :<C-u>tabprevious<CR>
 nnoremap <silent> [Tab]n :<C-u>tabnext<CR>
 
+""" required Unit
 nnoremap <silent> [Tab]u :<C-u>Unit tab<CR>
 
 " Tab jump
