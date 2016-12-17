@@ -1,4 +1,4 @@
-# vim-tabcommand
+# tabcommand
 tab commands
 
 # keybinds

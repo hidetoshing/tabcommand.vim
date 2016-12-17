@@ -21,8 +21,8 @@ nnoremap <silent> [Tab]n :<C-u>tabnext<CR>
 nnoremap <silent> [Tab]u :<C-u>Unit tab<CR>
 
 " Tab jump
-for n in range(1, 9)
-  execute 'nnoremap <silent> [Tab]'.n ':<C-u>tabnext'.n.'<CR>'
+for s:n in range(1, 9)
+  execute 'nnoremap <silent> [Tab]'.s:n ':<C-u>tabnext'.s:n.'<CR>'
 endfor
 
 nnoremap <silent> [Tab], :<C-u>tabprevious<CR>
